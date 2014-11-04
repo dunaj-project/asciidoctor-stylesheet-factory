@@ -13,6 +13,73 @@ h1 {
   margin-top:0.5em !important;
 }
 
+.dd-added {
+  position:relative;
+  float:right;
+  top:-3em;
+  color:#999;
+}
+
+.dd-var {
+  border-top:1px solid #eee;
+}
+
+.dd-usage > dl {
+  display:flex;
+  margin-bottom:0px;
+}
+
+.dd-usage li {
+  list-style-type:none;
+}
+
+.dd-example-check ~ .listingblock {
+  display:none;
+}
+
+.dd-example-check:checked ~ .listingblock {
+  display:block;
+}
+
+.dd-example-label {
+  display:inline-block;
+  padding-bottom:1em;
+  color:#2156A5;
+  text-decoration:underline;
+  cursor: pointer;
+}
+
+.dd-example-check:checked + .dd-example-label:before {
+  content:"Hide ";
+}
+
+.dd-example-check + .dd-example-label:before {
+  content:'Show ';
+}
+
+input.dd-example-check[type="checkbox"] {
+  display:none;
+  padding-right:0.5em;
+  margin-right:0.5em;
+}
+
+.dd-usage dd {
+  margin-left:0.5em;
+}
+
+.dd-usage ul {
+  margin:0;
+}
+
+.ddd-usage dd {
+  border:1px solid cyan;
+  display:inline-block;
+}
+
+.dd-usage dt {
+  font-weight:400;
+}
+
 .dd-mmsh {
   color:#bbb;
 }
