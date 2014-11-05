@@ -2,6 +2,11 @@
 @import "settings/dunaj";
 @import url(http://fonts.googleapis.com/css?family=Merriweather);
 @import url(http://fonts.googleapis.com/css?family=Amaranth);
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:400,600);
+
+code, kbd, pre, samp, pre > code {
+  font-family:  "Source Code Pro", "Droid Sans Mono", "DejaVu Sans Mono", "Monospace", monospace;
+}
 
 html, body, .article, #content {
   width:100%;
@@ -11,6 +16,10 @@ html, body, .article, #content {
 h1 {
   color:#7a2518 !important; 
   margin-top:0.5em !important;
+}
+
+.dd-refered {
+  font-weight:600;
 }
 
 .dd-added {
@@ -93,22 +102,25 @@ input.dd-example-check[type="checkbox"] {
   background-color:#ccc;
   color:#7a2518 !important; 
   border-left:2px solid #bbb;
-  border-right:1px solid #bbb;
+  bdorder-right:1px solid #bbb;
   padding-left:0.5em;
   padding-right:0.5em;
   margin:0px;
-  padding-top:7px;
-  padding-bottom:7px;
+  dpadding-top:7px;
+  dpadding-bottom:7px;
 }
 
 #dd-mmenu {
   font-family: 'Open Sans', 'DejaVu Sans', sans-serif;
   dfont-family: 'Amaranth', sans-serif;
   font-weight: 400;
-  font-size:18px;
-  margin-top: auto;
-  margin-bottom: auto;
+  font-size:16px;
+  height:30px;
+  margin:auto;
+  dmargin-top: auto;
+  dmargin-bottom: auto;
   margin-right:0.5em;
+  padding:0;
 }
 
 a.link {
@@ -229,14 +241,15 @@ a.link {
 
 .dd-nav-ns-var {
   dfont-family: 'Droid Sans Mono', 'DejaVu Sans Mono', monospace;
-  margin-top:0.7em;
+  margin-top:0.5em;
   margin-left:0em;
   padding-right:1em;
   padding-left:0.5em;
 }
 
 .dd-nav-ns-var-text {
-  font-family: 'Droid Sans Mono', 'DejaVu Sans Mono', monospace;
+  font-family:  "Source Code Pro", "Droid Sans Mono", "DejaVu Sans Mono", "Monospace", monospace;
+  dfont-family: 'Droid Sans Mono', 'DejaVu Sans Mono', monospace;
 }
 
 .dd-nav-ns-var a {
@@ -289,13 +302,14 @@ a.link {
 
 .dd-mmlink {
   color:#235;
-  border-left:1px solid #bbb;
+  line-height:30px;
+  text-decoration:none;
   padding-left:0.5em;
   padding-right:0.5em;
-  margin:0px;
-  padding-top:7px;
-  padding-bottom:7px;
-  text-decoration:none;
+  border-left:1px solid #bbb;
+  height:30px;
+  margin:auto;
+  display:inline-block;
 }
 
 .dd-mmlink:hover > i {
@@ -310,18 +324,18 @@ a.link {
   dfont-family: 'Merriweather', serif;
   font-family: 'Amaranth', sans-serif;
   font-weight: 400;
-  font-size:32px;
+  font-size:28px;
   margin-top: auto;
   margin-bottom: auto;
   letter-spacing: 3px;
 }
 
 #dd-logo img {
-  height:30px;
+  height:28px;
   margin-left:0.3em;
   margin-right:0.3em;
   margin-top: 0px;
-  margin-bottom: 2px;
+  margin-bottom: 3px;
 }
 
 #dd-logo a {
@@ -340,7 +354,7 @@ a.link {
 }
 
 #dd-header {
-  height: 50px;
+  height: 40px;
   width:100%;
   background-color:#eee;
   flex: 1;
@@ -357,7 +371,7 @@ a.link {
 
 #dd-flex {
   position: absolute;
-  top: 50px;
+  top: 40px;
   right: 0;
   bottom: 0;
   left: 0;
@@ -381,6 +395,7 @@ a.link {
 #dd-doc-nav {
   display: flex;
   background-color:#ddd;
+  dbackground-color:#eee;
   flex-direction: column;
 }
 
@@ -388,7 +403,7 @@ a.link {
   display: flex;
   flex-direction: column;
   background-color:#eee;
-  dborder-left:1px solid #bbb;
+  border-left:1px solid #bbb;
   border-right:1px solid #bbb;
 }
 
@@ -410,5 +425,13 @@ a.link {
   position:static;
   padding:0px;
   margin:0px;
+}
+
+table.CodeRay pre span.keyword, table pre.CodeRay span.keyword {
+  color:rgb(11, 110, 11);
+}
+
+table.CodeRay pre span.comment, table pre.CodeRay span.comment {
+  color:#ba3925;
 }
 
