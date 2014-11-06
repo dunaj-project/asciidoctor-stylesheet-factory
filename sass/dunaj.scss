@@ -8,6 +8,11 @@ code, kbd, pre, samp, pre > code {
   font-family:  "Source Code Pro", "Droid Sans Mono", "DejaVu Sans Mono", "Monospace", monospace;
 }
 
+.dd-var h3 {
+  font-family:  "Source Code Pro", "Droid Sans Mono", "DejaVu Sans Mono", "Monospace", monospace;
+  font-weight:400;
+}
+
 html, body, .article, #content {
   width:100%;
   max-width: none;
@@ -18,7 +23,7 @@ h1 {
   margin-top:0.5em !important;
 }
 
-.dd-refered {
+.dd-referred {
   font-weight:600;
 }
 
@@ -367,6 +372,7 @@ a.link {
 #header {
   max-width: none;
   padding-left:0em;
+  margin-bottom:1em;
 }
 
 #dd-flex {
@@ -379,7 +385,7 @@ a.link {
 }
 
 #preamble {
-  padding-top:2em;
+  padding-top:0.5em;
 }
 
 #dd-content {
