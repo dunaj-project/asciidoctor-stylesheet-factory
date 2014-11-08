@@ -252,9 +252,22 @@ a.link {
   padding-left:0.5em;
 }
 
+.dd-nav-ns-proto {
+  margin-top:1em;
+}
+
 .dd-nav-ns-var-text {
   font-family:  "Source Code Pro", "Droid Sans Mono", "DejaVu Sans Mono", "Monospace", monospace;
   dfont-family: 'Droid Sans Mono', 'DejaVu Sans Mono', monospace;
+}
+
+#dd-switch {
+  font-family: 'Noto Serif', 'DejaVu Serif', serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  margin-left:auto;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .dd-nav-ns-var a {
@@ -441,3 +454,6 @@ table.CodeRay pre span.comment, table pre.CodeRay span.comment {
   color:#ba3925;
 }
 
+.ddd-proto-var {
+  dbackground-color:#FFFFE0;
+}
