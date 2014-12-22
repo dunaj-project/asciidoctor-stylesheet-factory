@@ -167,6 +167,13 @@ a.link {
   text-decoration: none;
 }
 
+.dd-nav-doc-header span {
+  font-weight: 600;
+  font-size:18px;
+  color: #000;
+  text-decoration: none;
+}
+
 .dd-nav-ns-group {
   font-family: 'Open Sans', 'DejaVu Sans', sans-serif;
   margin-top:1em;
@@ -416,6 +423,8 @@ a.link {
 
 #dd-content > .dd-over {
   padding:2em;
+  padding-top:1em;
+  border-left:1px solid #bbb;
 }
 
 #dd-doc-nav {
@@ -430,7 +439,6 @@ a.link {
   flex-direction: column;
   background-color:#eee;
   border-left:1px solid #bbb;
-  border-right:1px solid #bbb;
 }
 
 .dd-over {
@@ -463,4 +471,18 @@ table.CodeRay pre span.comment, table pre.CodeRay span.comment {
 
 .ddd-proto-var {
   dbackground-color:#FFFFE0;
+}
+
+#blo {
+    background-repeat: repeat-x;
+    background: url("wave.png");
+    background-size:500px, 250px;
+    background-position:0px 0px;
+    width:100%;
+    height:250px;
+    position:absolute;
+    bottom:20px;
+    left:0px;
+    opacity:0.1;
+    z-index:-1;
 }
