@@ -539,7 +539,7 @@ table.CodeRay pre span.comment, table pre.CodeRay span.comment {
     align-self:flex-start;
     flex-shrink:0;
     width:auto;
-    background-color:rgba(255, 255, 255, 0.5);
+    background-color:#eee;
     padding:1em;
     margin:2em;
     margin-right:1em;
@@ -631,7 +631,7 @@ table.CodeRay pre span.comment, table pre.CodeRay span.comment {
     font-size:18px;
     color:#235;
     text-align:center;
-    padding:2em;
+    padding:0.5em;
     bottom:0px;
     left:0;
     width:100%;
