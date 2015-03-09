@@ -345,7 +345,7 @@ a.link {
 }
 
 #dd-logo img {
-    height:28px;
+    height:25px;
     margin-left:0.3em;
     margin-right:0.3em;
     margin-top:0px;
@@ -639,4 +639,10 @@ table.CodeRay pre span.comment, table pre.CodeRay span.comment {
 
 div:focus{
     outline:none;
+}
+
+@media (max-width: 768px) {
+    #dd-flex { flex-wrap: wrap }
+    #dd-side-nav { flex: 0 1 20%; }
+    #dd-content { max-width: 100% }
 }
