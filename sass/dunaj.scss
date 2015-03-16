@@ -555,7 +555,7 @@ table.CodeRay pre span.comment, table pre.CodeRay span.comment {
     margin-top:1em;
     width:100%;
     display:flex;
-    justify-content:space-between;
+    justify-content:center;
 }
 
 #xlogo {
@@ -593,6 +593,11 @@ table.CodeRay pre span.comment, table pre.CodeRay span.comment {
     font-size:18px;
     border-radius:10px;
     display:inline-block;
+}
+
+#xpage {
+    margin:auto;
+    max-width:1000px;
 }
 
 #xfb a {
