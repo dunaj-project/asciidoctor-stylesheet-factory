@@ -460,7 +460,7 @@ table.CodeRay pre span.comment, table pre.CodeRay span.comment {
     background-position:0px 0px;
     width:100%;
     height:250px;
-    position:absolute;
+    position:fixed;
     bottom:20px;
     left:0px;
     opacity:0.1;
@@ -633,11 +633,12 @@ table.CodeRay pre span.comment, table pre.CodeRay span.comment {
 #xfooter{
     opacity:0.9;
     font-family:'Noto Serif', 'DejaVu Serif', serif;
-    font-size:18px;
+    font-size:20px;
     color:#235;
     text-align:center;
     padding:0.5em;
     margin-top:1em;
+    margin-bottom:1em;
     bottom:0px;
     left:0;
     width:100%;
