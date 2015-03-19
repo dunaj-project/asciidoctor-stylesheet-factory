@@ -335,6 +335,10 @@ a.link {
     color:#1d4b8f !important;
 }
 
+.dd-mmsh:hover {
+    color:#1d4b8f;
+}
+
 #dd-logo {
     font-family:'Amaranth', sans-serif;
     font-weight:400;
@@ -652,4 +656,9 @@ div:focus{
     #dd-flex { flex-wrap: wrap }
     #dd-side-nav { flex: 0 1 20%; }
     #dd-content { max-width: 100% }
+}
+
+@media (max-width: 830px) {
+.dd-mmlink .dd-mmsh {color:#1d4b8f;}
+.dd-mmlink span {display:none;}
 }
